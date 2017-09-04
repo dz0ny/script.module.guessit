@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.guessit"
+       name="guessit"
+       version="3.0.0.dev0"
+       provider-name="guessit, dz0ny">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>GuessIt is a python library that extracts as much information as possible from a video filename.</summary>
+    <description>Packed for KODI from https://github.com/guessit-io/guessit/t</description>
+    <platform>all</platform>
+    <website>http://guessit.io</website>
+    <source>https://github.com/dz0ny/script.module.guessit</source>
+  </extension>
+</addon>
